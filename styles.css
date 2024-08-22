@@ -1,0 +1,387 @@
+#color {
+    background-color: #f5f7fa;
+    height: 600px;
+    width: 100%;
+}
+img.logo {
+    height: 35px;
+    width: 175px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+#box1, #tabs, #register {
+    display: inline;
+}
+#tabs {
+    margin-left: 350px;
+}
+.tabs {
+    background-color: #f5f7fa;
+    border: 0;
+    color: grey;
+}
+button:hover, #register:hover, #learn:hover {
+    background-color: #263238;
+    color: white;
+    cursor: pointer;
+}
+#register {
+    margin-left: 350px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10%;
+    background-color: #4caf4f;
+    border: 0;
+    color: white;
+    font-size: 15px;
+}
+.color {
+    color: #4caf4f;
+    margin-top: -25px;
+}
+h1 {
+    font-family: Inter, sans-serif;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+p.intro {
+    margin-left: 150px;
+    font-family: Inter, sans-serif;
+    color: grey;
+}
+.register {
+    margin-left: 150px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10%;
+    background-color: #4caf4f;
+    border: 0;
+    color: white;
+    font-size: 15px;
+}
+img.side-image {
+    margin-left: 70%;
+    position: absolute;
+    top: 200px;
+}
+h2 {
+    font-family: Inter, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(63, 62, 62, 0.919);
+}
+p.suitable {
+    text-align: center;
+    color: rgb(100, 97, 97);
+    font-size: 20px;
+    display: block;
+}
+.container {
+    display: flex;
+    gap: 10px;
+}
+img.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 60px;
+}
+h3 {
+    font-family: Inter, sans-serif;
+    color: rgba(63, 62, 62, 0.919);
+    margin-top: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+p.box {
+    display: block;
+    color: rgb(108, 108, 108);
+    font-size: 20px;
+}
+.more {
+    margin-top: -25px;
+}
+img.left-image {
+    float: left;
+    height: 500px;
+    width: 500px;
+    margin-top: -100px;
+}
+.pixel {
+    margin-top: 100px;
+    display: block;
+}
+.side {
+    text-align: left;
+}
+#learn {
+    margin-left: 450px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10%;
+    background-color: #4caf4f;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    margin-left: 0;
+}
+h2.marketing {
+    clear: left;
+    margin-top: -50px;
+}
+p.suitable {
+    font-size: 20px;
+    margin-top: -10px;
+}
+img.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 350px;
+    margin-left: 100px;
+}
+.text {
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    margin-left: 150px;
+    position: relative;
+    top: -125px;
+}
+p.content {
+    font-size: 29px;
+    text-align: center;
+    margin-top: 20px;
+}
+a {
+    margin-left: 80px;
+    color: #4caf4f;
+}
+.ugh-hr {
+    height: 400px;
+    width: 100%;
+    background-color: #263238;
+}
+img.logo2 {
+    height: 50px;
+    width: 80px;
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 150px;
+}
+h1.last_logo {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: -4px;
+    left: 80px;
+}
+.logo2, .last_logo {
+    display: inline;
+}
+.copy {
+    color: white;
+    position: relative;
+    left: 150px;
+}
+.logos {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 150px;
+}
+h4, .second>p, .third>p, .fourth>p {
+    color: white;
+    position: relative;
+    top: 35px;
+    left: 220px;
+}
+.why1 {
+    margin-left: 100px;
+}
+.why2 {
+    margin-left: 70px;
+}
+hr {
+    color: white;
+    display: horizontal;
+    position: relative;
+    top: 80px;
+}
+footer {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 80px;
+}
+@media (max-width: 600px) {
+    img.logo {
+        height: 25px;
+        width: 120px;
+        margin-left: -5px;
+    }
+    #tabs {
+        margin-left: 0;
+    }
+    #register {
+        margin-top: 10px;
+        margin-left: 110px;
+    }
+    h1 {
+        font-size: 30px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    p.intro {
+        margin-left: 50px;
+    }
+    .register {
+        margin-left: 50px;
+        height: 30px;
+        width: 90px;
+        font-size: 15px;
+    }
+    img.side-image {
+        margin-left: 20%;
+        height: 250px;
+        width: 270px;
+        position: relative;
+        top: 20px;
+    }
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    h2.gap {
+        margin-top: -25px
+    }
+
+    .container {
+        display: flex;
+        gap: 15px;
+    }
+    img.icon {
+        height: 40px;
+        width: 40px;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+    p.box {
+        font-size: 15px;
+    }
+    .more {
+        margin-top: -15px;
+    }
+    img.left-image {
+        float: left;
+        height: 150px;
+        width: 150px;
+        
+    }
+    .pixel {
+        display: block;
+        font-size: 20px;
+    }
+    .side {
+        text-align: left;
+        font-size: 20px;
+        position: relative;
+        top: -80px;
+    }
+    .up {
+        text-align: left;
+        font-size: 10px;
+        margin-left: 150px;
+        position: relative;
+        top: -90px;
+    }
+    #learn {
+        height: 30px;
+        width: 90px;
+        font-size: 15px;
+        border: 0;
+        font-size: 15px;
+        position: relative;
+        top: -80px;
+        left: 200px;
+    }
+    h2.marketing {
+        clear: left;
+        margin-top: -50px;
+        font-size: 30px;
+    }
+    p.suitable {
+        font-size: 18px;
+        margin-top: -10px;
+    }
+    img.pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 150px;
+        width: 200px;
+    }
+    .text {
+        height: 100px;
+        width: 150px;
+        position: relative;
+        margin-left: 25px;
+        top: -60px;
+    }
+    p.content {
+        font-size: 15px;
+        
+    }
+    a {
+        margin-left: 40px;
+    }
+    img.logo2 {
+        height: 30px;
+        width: 60px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+    }
+    h1.last_logo {
+        font-size: 40px;
+        position: relative;
+        top: -6px;
+        left: 25px;
+    }
+    .copy {
+        position: relative;
+        left: 25px;
+    }
+    .logos {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        left: 25px;
+    }
+    h4, .second>p, .third>p, .fourth>p {
+        position: relative;
+        top: 15px;
+        left: 30px;
+    }
+    .why1 {
+        margin-left: 15px;
+    }
+    .why2 {
+        margin-left: 5px;
+    }
+    hr {
+        position: relative;
+        top: 5px;
+    }
+    footer {
+        position: relative;
+        top: 10px;
+    }
+}
